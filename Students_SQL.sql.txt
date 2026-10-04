@@ -1,0 +1,13 @@
+SELECT * FROM Students
+
+INSERT INTO Students (ID,Name, Age )
+            VALUES (8, 'Mona', 22 )
+
+			UPDATE Students 
+			     SET ID = 7
+			  WHERE ID = 8;
+
+DELETE FROM Students 
+WHERE ID IN (7, 8, 9)
+
+SELECT * FROM Students;                                                        
